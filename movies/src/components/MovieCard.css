@@ -1,0 +1,78 @@
+.movieStack {
+    margin-top: 50px;
+    text-align: left;
+    
+}
+.eachMovie {
+    background-color: #222222;
+    padding: 10px;
+    height: 780px;
+    border: 1px solid #121212;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.movieDescription {
+    position: absolute;
+    bottom: 10px;
+    height: 100%;
+    color: white;
+    background-color: #222222;
+    padding: 10px 20px;
+    visibility: hidden;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 9999;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movieStack:hover {
+    transform: scale(1.05);
+}
+
+.movieStack:hover .eachMovie {
+    background-color: #222222;
+    
+}
+
+.moviePoster {
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.movieTitle {
+    font-size: 18px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.movieRating {
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+    color: #aaa;
+    margin-top: -32px;
+}
+
+.movieLanguage {
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-top: -32px;
+}
+
